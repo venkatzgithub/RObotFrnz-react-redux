@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/RObotFrnz-react/static/css/main.6f60ebcb.chunk.css",
+    "main.js": "/RObotFrnz-react/static/js/main.7725810e.chunk.js",
+    "main.js.map": "/RObotFrnz-react/static/js/main.7725810e.chunk.js.map",
+    "runtime-main.js": "/RObotFrnz-react/static/js/runtime-main.dc9a4142.js",
+    "runtime-main.js.map": "/RObotFrnz-react/static/js/runtime-main.dc9a4142.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/RObotFrnz-react/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.848ac030.chunk.js": "/RObotFrnz-react/static/js/2.848ac030.chunk.js",
+    "static/js/2.848ac030.chunk.js.map": "/RObotFrnz-react/static/js/2.848ac030.chunk.js.map",
+    "index.html": "/RObotFrnz-react/index.html",
+    "precache-manifest.468a71b01138a1451031b555caafabfb.js": "/RObotFrnz-react/precache-manifest.468a71b01138a1451031b555caafabfb.js",
+    "service-worker.js": "/RObotFrnz-react/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/RObotFrnz-react/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.6f60ebcb.chunk.css.map": "/RObotFrnz-react/static/css/main.6f60ebcb.chunk.css.map",
+    "static/js/2.848ac030.chunk.js.LICENSE.txt": "/RObotFrnz-react/static/js/2.848ac030.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/RObotFrnz-react/static/media/SEGA.12a3db8b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc9a4142.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.848ac030.chunk.js",
+    "static/css/main.6f60ebcb.chunk.css",
+    "static/js/main.7725810e.chunk.js"
+  ]
+}
