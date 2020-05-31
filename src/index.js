@@ -5,10 +5,14 @@ import './index.css';
 import App from './containers/App';
 import "tachyons";
 import * as serviceWorker from './serviceWorker';
-
+import {createStore} from "redux";
+import {Provider} from "react-redux";
+import {searchRobots} from "./reducers"
+const store = createStore(searchRobots);
 ReactDOM.render(
   <React.StrictMode>
-   <App></App>
+    <Provider store={store}> 
+   <App ></App></Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
