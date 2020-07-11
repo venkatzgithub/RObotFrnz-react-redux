@@ -3,6 +3,7 @@ const initialStateSearch = {
     searchField: ''
   }
   export const searchRobots = (state=initialStateSearch, action={}) => {
+    console.log("Reducer")
     switch (action.type) {
       case CHANGE_SEARCHFIELD:
         return Object.assign({}, state, {searchField: action.payload})
@@ -17,11 +18,12 @@ const initialStateSearch = {
 
   }
   export const requestRobots=(state=initialStateRobots, action={}) => {
-    console.log("Reducer")
+    console.log("apiReducer")
     switch (action.type) {
         case REQUEST_ROBOTS_PENDING:
           return Object.assign({}, state, {isPending: true})
         case REQUEST_ROBOTS_SUCCESS:
+          console.log("REQUEST_ROBOTS_SUCCESS swicth");
             return Object.assign({}, state, {isPending: false,robots:action.payload}) 
         case REQUEST_ROBOTS_FAILED:
             return Object.assign({}, state, {isPending: false,error:action.payload})

@@ -18,25 +18,29 @@ const mapStateToProps = (state) => {
  }
 }
 const mapDispatchToProps = (dispatch) => {
-    console.log("mapDispatchToProps");
+  console.log("outsidemapDispatchToProps");
     return {
         
-      onSearchChange: (event) => {console.log(event.target.value);dispatch(setSearchField(event.target.value))
-        
+      onSearchChange: (event) => {console.log("Value"+event.target.value);dispatch(setSearchField(event.target.value))
+        console.log("mapDispatchToProps");
       },
-      onRequestRobots: () => dispatch(requestRobots())
+      
+      onRequestRobots: () => {console.log("onRequestRobots");dispatch(requestRobots());console.log("apimapDispatchToProps");}
     }
+    
   }
 class App extends Component {
 
 
 componentDidMount(){
-    console.log(this.props);
+   
     this.props.onRequestRobots();
 
 }
 
 render(){
+  console.log("render");
+  console.log(this.props);
 
 const {searchField, onSearchChange,robots,isPending,error}=this.props;
 const filteredRobots = robots.filter(robot => {
